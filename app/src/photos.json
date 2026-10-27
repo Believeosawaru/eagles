@@ -1,0 +1,488 @@
+{
+  "p1": {
+    "name": "Peter Rufai",
+    "missing": true,
+    "reason": "'imageinfo'"
+  },
+  "p2": {
+    "name": "Alloy Agu",
+    "missing": true,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  "p3": {
+    "name": "Wilfred Agbonavbare",
+    "missing": true
+  },
+  "p4": {
+    "name": "Dosu Joseph",
+    "missing": true
+  },
+  "p5": {
+    "name": "Uche Okechukwu",
+    "missing": true
+  },
+  "p6": {
+    "name": "Stephen Keshi",
+    "missing": true,
+    "reason": "'imageinfo'"
+  },
+  "p7": {
+    "name": "Ben Iroha",
+    "missing": true
+  },
+  "p8": {
+    "name": "Augustine Eguavoen",
+    "file": "p8.jpg",
+    "author": "Soccermax Nig",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Austin_Eguavoen.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p9": {
+    "name": "Jay-Jay Okocha",
+    "file": "p9.jpg",
+    "author": "\u041a\u0438\u0440\u0438\u043b\u043b \u0412\u0435\u043d\u0435\u0434\u0438\u043a\u0442\u043e\u0432",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Match_legends_2017_CC_(5).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p10": {
+    "name": "Sunday Oliseh",
+    "missing": true
+  },
+  "p11": {
+    "name": "Mutiu Adepoju",
+    "missing": true,
+    "reason": "License not approved: Attribution"
+  },
+  "p12": {
+    "name": "Thompson Oliha",
+    "missing": true
+  },
+  "p13": {
+    "name": "Rashidi Yekini",
+    "missing": true,
+    "reason": "'imageinfo'"
+  },
+  "p14": {
+    "name": "Daniel Amokachi",
+    "file": "p14.jpg",
+    "author": "FOOTBALL REPORTERS",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_Amokachi.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p15": {
+    "name": "Emmanuel Amunike",
+    "file": "p15.jpg",
+    "author": "PB84",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emmanuel_Amunike_2017.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p16": {
+    "name": "Finidi George",
+    "missing": true
+  },
+  "p17": {
+    "name": "Vincent Enyeama",
+    "file": "p17.jpg",
+    "author": "\u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432 \u0424\u0435\u0434\u0447\u0435\u043d\u043a\u043e",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Krasnodar-Lille_(21).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p18": {
+    "name": "Austin Ejide",
+    "file": "p18.jpg",
+    "author": "Adir Benyamini",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Austin_Ejide_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p19": {
+    "name": "Greg Etafia",
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "p20": {
+    "name": "Dele Aiyenugba",
+    "file": "p20.jpg",
+    "author": "Botend",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dele_Aiyenugba.JPG",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p21": {
+    "name": "Joseph Yobo",
+    "file": "p21.jpg",
+    "author": "Ultraslansi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JosephYobo%2713_(cropped).JPG",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p22": {
+    "name": "Taribo West",
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "p23": {
+    "name": "Celestine Babayaro",
+    "file": "p23.jpg",
+    "author": "@cfcunofficial (Chelsea Debs) London from London, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celestine_Babayaro_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p24": {
+    "name": "Danny Shittu",
+    "file": "p24.jpg",
+    "author": "BillyBatty (talk)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Danny_Shittu.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p25": {
+    "name": "Nwankwo Kanu",
+    "file": "p25.jpg",
+    "author": "Original:  Chensiyuan / Derivative work:  Danyele",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_nwankwo_kanu_2017_(edited).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p26": {
+    "name": "Wilson Oruma",
+    "file": "p26.jpg",
+    "author": "\u042f\u043a\u0443\u0448\u043a\u0438\u043d \u0418\u0432\u0430\u043d",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilson_Oruma.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p27": {
+    "name": "Christian Obodo",
+    "file": "p27.jpg",
+    "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041c\u044b\u0441\u044f\u043a\u0438\u043d",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christian_Obodo.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p28": {
+    "name": "Seyi Olofinjana",
+    "file": "p28.jpg",
+    "author": "jon candy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seyi_Olofinjana.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p29": {
+    "name": "Obafemi Martins",
+    "file": "p29.jpg",
+    "author": "Martins_Llevant_UD_-_Valencia_CF.jpg: Carlos RM\nderivative work: Coentor",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martins_Llevant.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p30": {
+    "name": "Yakubu Aiyegbeni",
+    "file": "p30.jpg",
+    "author": "No machine-readable author provided. Alexchen4836 assumed (based on copyright claims).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yakubu_in_2013_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p31": {
+    "name": "Julius Aghahowa",
+    "file": "p31.jpg",
+    "author": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0425\u0443\u0434\u043e\u0442\u0435\u043f\u043b\u044b\u0439",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julius_Aghahowa.jpeg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p32": {
+    "name": "John Utaka",
+    "file": "p32.jpg",
+    "author": "MHSC TV - Montpellier H\u00e9rault Sport Club",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Utaka_2024.png",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p33": {
+    "name": "Carl Ikeme",
+    "file": "p33.jpg",
+    "author": "\u00c6thelred",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Ikeme.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p34": {
+    "name": "Ikechukwu Ezenwa",
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "p35": {
+    "name": "Daniel Akpeyi",
+    "file": "p35.jpg",
+    "author": "Rovena Rosa/Ag\u00eancia Brasil",
+    "license": "CC BY 3.0 br",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_Akpeyi.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p36": {
+    "name": "Dele Alampasu",
+    "missing": true
+  },
+  "p37": {
+    "name": "Efe Ambrose",
+    "file": "p37.jpg",
+    "author": "Dominic Nelson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Efe_Ambrose_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p38": {
+    "name": "Kenneth Omeruo",
+    "file": "p38.jpg",
+    "author": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041f\u0443\u043a\u0430\u043b\u0438\u043a",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Argentina-Nigeria_(3)_cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p39": {
+    "name": "Godfrey Oboabona",
+    "file": "p39.jpg",
+    "author": "Ultraslansi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Godfrey_Oboabona.JPG",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p40": {
+    "name": "Elderson Echiejile",
+    "missing": true
+  },
+  "p41": {
+    "name": "John Obi Mikel",
+    "file": "p41.jpg",
+    "author": "Web Summit Qatar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mikel_John_Obi_(53557649520)_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p42": {
+    "name": "Ogenyi Onazi",
+    "file": "p42.jpg",
+    "author": "\u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432 \u0412\u0435\u0434\u043c\u0438\u0434\u044c",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dnepr-Lazio_(4).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p43": {
+    "name": "Joel Obi",
+    "file": "p43.jpg",
+    "author": "\u041c\u0430\u0439\u043e\u0440\u043e\u0432 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joel_Chukwuma_Obi_FC_Internazionale.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p44": {
+    "name": "Ramon Azeez",
+    "missing": true
+  },
+  "p45": {
+    "name": "Ahmed Musa",
+    "file": "p45.jpg",
+    "author": "\u041a\u0438\u0440\u0438\u043b\u043b \u0412\u0435\u043d\u0435\u0434\u0438\u043a\u0442\u043e\u0432",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ahmed_Musa_20180625.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p46": {
+    "name": "Emmanuel Emenike",
+    "file": "p46.jpg",
+    "author": "Fenerli1978",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emenike_@_Fenerbahce_-_Altinordu_23_December_2014_(cropped).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p47": {
+    "name": "Odion Ighalo",
+    "file": "p47.jpg",
+    "author": "Franziska",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Odion_Ighalo_24.jpeg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p48": {
+    "name": "Victor Moses",
+    "file": "p48.jpg",
+    "author": "\u0410\u043d\u043d\u0430 \u041d\u044d\u0441\u0441\u0438",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Victor_Moses_(SPA-AKH).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p49": {
+    "name": "Maduka Okoye",
+    "file": "p49.jpg",
+    "author": "WikkiWater",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Okoye_2026.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p50": {
+    "name": "Francis Uzoho",
+    "file": "p50.jpg",
+    "author": "Platos8",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Uzoho2022.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p51": {
+    "name": "Stanley Nwabali",
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "p52": {
+    "name": "Adebayo Adeleye",
+    "missing": true,
+    "reason": "HTTP Error 429: Too Many Requests"
+  },
+  "p53": {
+    "name": "William Troost-Ekong",
+    "file": "p53.jpg",
+    "author": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041f\u0443\u043a\u0430\u043b\u0438\u043a",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Argentina-Nigeria_(5).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p54": {
+    "name": "Calvin Bassey",
+    "file": "p54.jpg",
+    "author": "Timmy96",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Calvin_Bassey_01112025_(1).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p55": {
+    "name": "Ola Aina",
+    "file": "p55.jpg",
+    "author": "@cfcunofficial (Chelsea Debs) London",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ola_Aina_2016.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p56": {
+    "name": "Zaidu Sanusi",
+    "file": "p56.jpg",
+    "author": "F\u00e9d\u00e9ration Guin\u00e9enne Football",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Zaidu_Sanusi1.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p57": {
+    "name": "Wilfred Ndidi",
+    "file": "p57.jpg",
+    "author": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041f\u0443\u043a\u0430\u043b\u0438\u043a",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilfred_Ndidi-Nigeria.jpg",
+    "changes": "Resized thumbnail; cover cropped for display."
+  },
+  "p58": {
+    "name": "Alex Iwobi",
+    "file": "p58.jpg",
+    "author": "Timmy96",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Iwobi_24052026_%281%29.jpg",
+    "changes": "Resized thumbnail; cover cropped for display."
+  },
+  "p59": {
+    "name": "Frank Onyeka",
+    "file": "p59.jpg",
+    "author": "Timmy96",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Onyeka_2025.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p60": {
+    "name": "Alhassan Yusuf",
+    "file": "p60.jpg",
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alhassan_Yusuf_Revolution_Nashville_6.25.25-206.jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p61": {
+    "name": "Victor Osimhen",
+    "file": "p61.jpg",
+    "author": "Ottomanor",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Osimhen30Sep2025.jpg",
+    "changes": "Resized thumbnail; cover cropped for display."
+  },
+  "p62": {
+    "name": "Ademola Lookman",
+    "file": "p62.jpg",
+    "author": "Willibald11",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Ademola_Lookman_%282019%29.jpg",
+    "changes": "Resized thumbnail; cover cropped for display."
+  },
+  "p63": {
+    "name": "Samuel Chukwueze",
+    "file": "p63.jpg",
+    "author": "Timmy96",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Chukwueze_01112025_(1).jpg",
+    "changes": "Resized thumbnail; displayed with cover cropping."
+  },
+  "p64": {
+    "name": "Victor Boniface",
+    "file": "p64.jpg",
+    "author": "J\u00f8rn Sund-Henriksen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Boniface.jpg",
+    "changes": "Resized thumbnail; cover cropped for display."
+  }
+}

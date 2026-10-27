@@ -1,0 +1,450 @@
+[
+  {
+    "id": "p1",
+    "name": "Peter Rufai",
+    "position": "GK",
+    "era": "1990s",
+    "rating": 88
+  },
+  {
+    "id": "p2",
+    "name": "Alloy Agu",
+    "position": "GK",
+    "era": "1990s",
+    "rating": 84
+  },
+  {
+    "id": "p3",
+    "name": "Wilfred Agbonavbare",
+    "position": "GK",
+    "era": "1990s",
+    "rating": 80
+  },
+  {
+    "id": "p4",
+    "name": "Dosu Joseph",
+    "position": "GK",
+    "era": "1990s",
+    "rating": 76
+  },
+  {
+    "id": "p5",
+    "name": "Uche Okechukwu",
+    "position": "DEF",
+    "era": "1990s",
+    "rating": 88
+  },
+  {
+    "id": "p6",
+    "name": "Stephen Keshi",
+    "position": "DEF",
+    "era": "1990s",
+    "rating": 84
+  },
+  {
+    "id": "p7",
+    "name": "Ben Iroha",
+    "position": "DEF",
+    "era": "1990s",
+    "rating": 80
+  },
+  {
+    "id": "p8",
+    "name": "Augustine Eguavoen",
+    "position": "DEF",
+    "era": "1990s",
+    "rating": 76
+  },
+  {
+    "id": "p9",
+    "name": "Jay-Jay Okocha",
+    "position": "MID",
+    "era": "1990s",
+    "rating": 88
+  },
+  {
+    "id": "p10",
+    "name": "Sunday Oliseh",
+    "position": "MID",
+    "era": "1990s",
+    "rating": 84
+  },
+  {
+    "id": "p11",
+    "name": "Mutiu Adepoju",
+    "position": "MID",
+    "era": "1990s",
+    "rating": 80
+  },
+  {
+    "id": "p12",
+    "name": "Thompson Oliha",
+    "position": "MID",
+    "era": "1990s",
+    "rating": 76
+  },
+  {
+    "id": "p13",
+    "name": "Rashidi Yekini",
+    "position": "FWD",
+    "era": "1990s",
+    "rating": 90
+  },
+  {
+    "id": "p14",
+    "name": "Daniel Amokachi",
+    "position": "FWD",
+    "era": "1990s",
+    "rating": 86
+  },
+  {
+    "id": "p15",
+    "name": "Emmanuel Amunike",
+    "position": "FWD",
+    "era": "1990s",
+    "rating": 82
+  },
+  {
+    "id": "p16",
+    "name": "Finidi George",
+    "position": "FWD",
+    "era": "1990s",
+    "rating": 78
+  },
+  {
+    "id": "p17",
+    "name": "Vincent Enyeama",
+    "position": "GK",
+    "era": "2000s",
+    "rating": 88
+  },
+  {
+    "id": "p18",
+    "name": "Austin Ejide",
+    "position": "GK",
+    "era": "2000s",
+    "rating": 84
+  },
+  {
+    "id": "p19",
+    "name": "Greg Etafia",
+    "position": "GK",
+    "era": "2000s",
+    "rating": 80
+  },
+  {
+    "id": "p20",
+    "name": "Dele Aiyenugba",
+    "position": "GK",
+    "era": "2000s",
+    "rating": 76
+  },
+  {
+    "id": "p21",
+    "name": "Joseph Yobo",
+    "position": "DEF",
+    "era": "2000s",
+    "rating": 88
+  },
+  {
+    "id": "p22",
+    "name": "Taribo West",
+    "position": "DEF",
+    "era": "2000s",
+    "rating": 84
+  },
+  {
+    "id": "p23",
+    "name": "Celestine Babayaro",
+    "position": "DEF",
+    "era": "2000s",
+    "rating": 80
+  },
+  {
+    "id": "p24",
+    "name": "Danny Shittu",
+    "position": "DEF",
+    "era": "2000s",
+    "rating": 76
+  },
+  {
+    "id": "p25",
+    "name": "Nwankwo Kanu",
+    "position": "MID",
+    "era": "2000s",
+    "rating": 88
+  },
+  {
+    "id": "p26",
+    "name": "Wilson Oruma",
+    "position": "MID",
+    "era": "2000s",
+    "rating": 84
+  },
+  {
+    "id": "p27",
+    "name": "Christian Obodo",
+    "position": "MID",
+    "era": "2000s",
+    "rating": 80
+  },
+  {
+    "id": "p28",
+    "name": "Seyi Olofinjana",
+    "position": "MID",
+    "era": "2000s",
+    "rating": 76
+  },
+  {
+    "id": "p29",
+    "name": "Obafemi Martins",
+    "position": "FWD",
+    "era": "2000s",
+    "rating": 89
+  },
+  {
+    "id": "p30",
+    "name": "Yakubu Aiyegbeni",
+    "position": "FWD",
+    "era": "2000s",
+    "rating": 85
+  },
+  {
+    "id": "p31",
+    "name": "Julius Aghahowa",
+    "position": "FWD",
+    "era": "2000s",
+    "rating": 81
+  },
+  {
+    "id": "p32",
+    "name": "John Utaka",
+    "position": "FWD",
+    "era": "2000s",
+    "rating": 77
+  },
+  {
+    "id": "p33",
+    "name": "Carl Ikeme",
+    "position": "GK",
+    "era": "2010s",
+    "rating": 88
+  },
+  {
+    "id": "p34",
+    "name": "Ikechukwu Ezenwa",
+    "position": "GK",
+    "era": "2010s",
+    "rating": 84
+  },
+  {
+    "id": "p35",
+    "name": "Daniel Akpeyi",
+    "position": "GK",
+    "era": "2010s",
+    "rating": 80
+  },
+  {
+    "id": "p36",
+    "name": "Dele Alampasu",
+    "position": "GK",
+    "era": "2010s",
+    "rating": 76
+  },
+  {
+    "id": "p37",
+    "name": "Efe Ambrose",
+    "position": "DEF",
+    "era": "2010s",
+    "rating": 88
+  },
+  {
+    "id": "p38",
+    "name": "Kenneth Omeruo",
+    "position": "DEF",
+    "era": "2010s",
+    "rating": 84
+  },
+  {
+    "id": "p39",
+    "name": "Godfrey Oboabona",
+    "position": "DEF",
+    "era": "2010s",
+    "rating": 80
+  },
+  {
+    "id": "p40",
+    "name": "Elderson Echiejile",
+    "position": "DEF",
+    "era": "2010s",
+    "rating": 76
+  },
+  {
+    "id": "p41",
+    "name": "John Obi Mikel",
+    "position": "MID",
+    "era": "2010s",
+    "rating": 88
+  },
+  {
+    "id": "p42",
+    "name": "Ogenyi Onazi",
+    "position": "MID",
+    "era": "2010s",
+    "rating": 84
+  },
+  {
+    "id": "p43",
+    "name": "Joel Obi",
+    "position": "MID",
+    "era": "2010s",
+    "rating": 80
+  },
+  {
+    "id": "p44",
+    "name": "Ramon Azeez",
+    "position": "MID",
+    "era": "2010s",
+    "rating": 76
+  },
+  {
+    "id": "p45",
+    "name": "Ahmed Musa",
+    "position": "FWD",
+    "era": "2010s",
+    "rating": 88
+  },
+  {
+    "id": "p46",
+    "name": "Emmanuel Emenike",
+    "position": "FWD",
+    "era": "2010s",
+    "rating": 84
+  },
+  {
+    "id": "p47",
+    "name": "Odion Ighalo",
+    "position": "FWD",
+    "era": "2010s",
+    "rating": 80
+  },
+  {
+    "id": "p48",
+    "name": "Victor Moses",
+    "position": "FWD",
+    "era": "2010s",
+    "rating": 76
+  },
+  {
+    "id": "p49",
+    "name": "Maduka Okoye",
+    "position": "GK",
+    "era": "2020s",
+    "rating": 88
+  },
+  {
+    "id": "p50",
+    "name": "Francis Uzoho",
+    "position": "GK",
+    "era": "2020s",
+    "rating": 84
+  },
+  {
+    "id": "p51",
+    "name": "Stanley Nwabali",
+    "position": "GK",
+    "era": "2020s",
+    "rating": 80
+  },
+  {
+    "id": "p52",
+    "name": "Adebayo Adeleye",
+    "position": "GK",
+    "era": "2020s",
+    "rating": 76
+  },
+  {
+    "id": "p53",
+    "name": "William Troost-Ekong",
+    "position": "DEF",
+    "era": "2020s",
+    "rating": 88
+  },
+  {
+    "id": "p54",
+    "name": "Calvin Bassey",
+    "position": "DEF",
+    "era": "2020s",
+    "rating": 84
+  },
+  {
+    "id": "p55",
+    "name": "Ola Aina",
+    "position": "DEF",
+    "era": "2020s",
+    "rating": 80
+  },
+  {
+    "id": "p56",
+    "name": "Zaidu Sanusi",
+    "position": "DEF",
+    "era": "2020s",
+    "rating": 76
+  },
+  {
+    "id": "p57",
+    "name": "Wilfred Ndidi",
+    "position": "MID",
+    "era": "2020s",
+    "rating": 88
+  },
+  {
+    "id": "p58",
+    "name": "Alex Iwobi",
+    "position": "MID",
+    "era": "2020s",
+    "rating": 84
+  },
+  {
+    "id": "p59",
+    "name": "Frank Onyeka",
+    "position": "MID",
+    "era": "2020s",
+    "rating": 80
+  },
+  {
+    "id": "p60",
+    "name": "Alhassan Yusuf",
+    "position": "MID",
+    "era": "2020s",
+    "rating": 76
+  },
+  {
+    "id": "p61",
+    "name": "Victor Osimhen",
+    "position": "FWD",
+    "era": "2020s",
+    "rating": 91
+  },
+  {
+    "id": "p62",
+    "name": "Ademola Lookman",
+    "position": "FWD",
+    "era": "2020s",
+    "rating": 87
+  },
+  {
+    "id": "p63",
+    "name": "Samuel Chukwueze",
+    "position": "FWD",
+    "era": "2020s",
+    "rating": 83
+  },
+  {
+    "id": "p64",
+    "name": "Victor Boniface",
+    "position": "FWD",
+    "era": "2020s",
+    "rating": 79
+  }
+]

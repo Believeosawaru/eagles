@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Eagles 7\u20130",
+    "slug": "eagles-seven-zero",
+    "scheme": "eagles70",
+    "version": "4.0.1",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.eagles70.game",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.eagles70.game"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-sharing",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false
+        }
+      ]
+    ]
+  }
+}

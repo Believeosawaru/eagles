@@ -1,0 +1,9 @@
+{
+  "name": "eagles-7-0-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/game.test.ts",
+    "test:recovery": "node --test tests/tournament-recovery.cjs"
+  }
+}
