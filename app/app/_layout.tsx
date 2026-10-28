@@ -1,11 +1,11 @@
 import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
-import { ActivityIndicator, View } from "react-native";
 import {
   useFonts,
   Fredoka_500Medium,
   Fredoka_700Bold,
 } from "@expo-google-fonts/fredoka";
+import { BrandedLoader } from "../src/Brand";
 export default function Layout() {
   const [loaded, error] = useFonts({ Fredoka_500Medium, Fredoka_700Bold });
   return (
@@ -13,15 +13,7 @@ export default function Layout() {
       {loaded || error ? (
         <Stack screenOptions={{ headerShown: false }} />
       ) : (
-        <View
-          style={{
-            flex: 1,
-            backgroundColor: "#071e19",
-            justifyContent: "center",
-          }}
-        >
-          <ActivityIndicator color="#d6f395" />
-        </View>
+        <BrandedLoader fontReady={false} />
       )}
     </SafeAreaProvider>
   );

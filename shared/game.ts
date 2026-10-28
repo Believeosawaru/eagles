@@ -160,6 +160,7 @@ export function simulate(
   seed: string,
   config: Config = defaultConfig,
   attempt = seed,
+  awayTeam?: Player[],
 ) {
   const rating = effectiveStrength(team, config),
     stable = rng(
@@ -196,11 +197,11 @@ export function simulate(
     const jitter = (u: number) =>
       clamp(u + (variation() - 0.5) * (volatile ? 0.85 : 0.14), 0.001, 0.999);
     const home = poisson(
-      clamp(1.35 + advantage * 0.045, 0.4, 2.8),
+      clamp((awayTeam ? 1.3 : 1.35) + advantage * 0.045, 0.4, 2.8),
       jitter(stable()),
     );
     const away = poisson(
-      clamp(1.2 - advantage * 0.035, 0.35, 2.6),
+      clamp((awayTeam ? 1.3 : 1.2) - advantage * 0.035, 0.35, 2.6),
       jitter(stable()),
     );
     const penalties =
@@ -221,7 +222,8 @@ export function simulate(
     const name = (index: number) =>
       index < 11
         ? team[index].name
-        : countryByName(opponent).xi[index - 11].name;
+        : awayTeam?.[index - 11]?.name ||
+          countryByName(opponent).xi[index - 11].name;
     function emit(
       kind: MatchEvent["kind"],
       side: "home" | "away",
@@ -422,11 +424,13 @@ export function simulate(
         events[events.length - 1].scorerId =
           forward < 11
             ? team[forward].id
-            : String(countryByName(opponent).xi[forward - 11].number);
+            : awayTeam?.[forward - 11]?.id ||
+              String(countryByName(opponent).xi[forward - 11].number);
         events[events.length - 1].assistId =
           midfield < 11
             ? team[midfield].id
-            : String(countryByName(opponent).xi[midfield - 11].number);
+            : awayTeam?.[midfield - 11]?.id ||
+              String(countryByName(opponent).xi[midfield - 11].number);
         events[events.length - 1].assist = name(midfield);
         restart(side === "home" ? "away" : "home");
       } else if (miss) {
@@ -513,7 +517,19 @@ export function simulate(
       possession,
     };
   }
-  const tournament = createWorldCup(seed + ":cup:" + attempt, play);
+  const tournament = awayTeam
+    ? {
+        fixtures: [],
+        nigeriaMatches: [
+          play(
+            "Head-to-head",
+            "Visiting XI",
+            effectiveStrength(awayTeam, defaultConfig),
+          ),
+        ],
+        champion: "",
+      }
+    : createWorldCup(seed + ":cup:" + attempt, play);
   const matches = tournament.nigeriaMatches;
   const wins = matches.filter((m) => m.won).length;
   return {
@@ -539,3 +555,7 @@ export function simulate(
   };
 }
 export type Result = ReturnType<typeof simulate>;
+
+export function simulateDuel(home: Player[], away: Player[], seed: string) {
+  return simulate(home, seed, defaultConfig, seed, away).matches[0];
+}

@@ -1,3 +1,5 @@
+import Brand, { BrandedLoader } from "../src/Brand";
+import Multiplayer from "../src/Multiplayer";
 import TournamentHub from "../src/TournamentHub";
 import { playful } from "../src/theme";
 import { useEffect, useMemo, useRef, useState, type ComponentRef } from "react";
@@ -60,7 +62,8 @@ type Screen =
   | "history"
   | "board"
   | "settings"
-  | "tournament";
+  | "tournament"
+  | "multiplayer";
 const KEY = "eagles70-v4";
 const label = {
   balanced: "Balanced",
@@ -95,6 +98,10 @@ export default function Game() {
   const reduce = useReducedMotion(),
     card = useRef<ComponentRef<typeof View>>(null);
   const [simulationRevision, setSimulationRevision] = useState(0);
+  const scroll = useRef<ComponentRef<typeof ScrollView>>(null);
+  useEffect(() => {
+    scroll.current?.scrollTo({ y: 0, animated: false });
+  }, [screen]);
   const session = saved.session;
   const team = useMemo(
     () =>
@@ -479,7 +486,7 @@ export default function Game() {
   if (!hydrated)
     return (
       <SafeAreaView style={s.safe}>
-        <ActivityIndicator color="#d6f395" style={{ margin: 80 }} />
+        <BrandedLoader />
       </SafeAreaView>
     );
   return (
@@ -494,6 +501,7 @@ export default function Game() {
         }
       />
       <ScrollView
+        ref={scroll}
         contentContainerStyle={s.scroll}
         keyboardShouldPersistTaps="handled"
       >
@@ -503,9 +511,7 @@ export default function Game() {
               accessibilityRole="button"
               onPress={() => navigate("home")}
             >
-              <Text style={s.brand}>
-                EAGLES <Text style={{ color: "#d6f395" }}>7–0</Text>
-              </Text>
+              <Brand size={38} wordmark />
             </Pressable>
             <Pressable
               accessibilityRole="button"
@@ -554,6 +560,11 @@ export default function Game() {
                   ? "Start a fresh XI  →"
                   : "Build my XI  →",
                 () => start(),
+              )}
+              {button(
+                "Online multiplayer  ↗",
+                () => navigate("multiplayer"),
+                true,
               )}
               <Art />
               {session &&
@@ -1172,6 +1183,12 @@ export default function Game() {
               />
             </>
           )}
+          {screen === "multiplayer" && (
+            <>
+              {button("Back to home", () => navigate("home"), true)}
+              <Multiplayer manager={saved.managerName} />
+            </>
+          )}
           {screen === "collection" && (
             <>
               {header(
@@ -1439,7 +1456,7 @@ export default function Game() {
               {notice}
             </Text>
           )}
-          <Text style={s.footer}>FOR THE LOVE OF NIGERIAN FOOTBALL · V2</Text>
+          <Text style={s.footer}>FOR THE LOVE OF NIGERIAN FOOTBALL</Text>
         </View>
       </ScrollView>
       <Modal

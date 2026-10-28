@@ -1,6 +1,6 @@
 {
   "name": "eagles-seven-zero",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "private": true,
   "main": "expo-router/entry",
   "scripts": {
@@ -23,6 +23,7 @@
     "expo-linking": "~58.0.14",
     "expo-router": "~58.0.26",
     "expo-sharing": "~58.0.20",
+    "expo-splash-screen": "~58.0.11",
     "expo-status-bar": "~58.0.4",
     "html-to-image": "^1.11.13",
     "react": "19.3.0",

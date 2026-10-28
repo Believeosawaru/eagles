@@ -3,7 +3,7 @@
     "name": "Eagles 7\u20130",
     "slug": "eagles-seven-zero",
     "scheme": "eagles70",
-    "version": "4.0.1",
+    "version": "5.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "ios": {
@@ -15,7 +15,8 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "static"
+      "output": "static",
+      "favicon": "./assets/brand/eagles-mark.png"
     },
     "plugins": [
       "expo-router",
@@ -28,7 +29,17 @@
           "recordAudioAndroid": false,
           "enableBackgroundPlayback": false
         }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/brand/eagles-mark.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#071e19"
+        }
       ]
-    ]
+    ],
+    "icon": "./assets/brand/eagles-mark.png"
   }
 }

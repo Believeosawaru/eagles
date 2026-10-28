@@ -1,0 +1,76 @@
+{
+  "mode": "Built-in image_gen tool",
+  "cards": [
+    {
+      "n": 1,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nCover 01 / 06. Make three beautiful iPhone mockups across the lower middle, central phone tallest showing home, flanking phones show the pitch and scorers. Warm cream background, lime hand-drawn underline, deep green torn-paper footer. Large exact headline: “A football idea.\\nA working MVP.” Small exact kicker: “EAGLES 7–0 · THE BUILD STORY”. Exact subtitle: “Draft the legends. Manage Nigeria. Challenge a friend.” Exact stack line: “React Native · Expo · TypeScript · Node.js”. Tiny honest label: “Web + mobile source · AI-assisted build”.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/01-home.png",
+        "social-pack/screens/03-late-goal.png",
+        "social-pack/screens/06-scorers.png"
+      ]
+    },
+    {
+      "n": 2,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nSlide 02 / 06. Draft and dressing-room case study, two iPhones at different heights on the right, precise real supplied draft screen and formation screen; enough width on left for bold labels and short text. Exact headline: “Make the draft\\nfeel like a team.” Exact three short sections: “THE CHALLENGE” then “Text-only choices felt flat.”; “THE CHANGE” then “Photo cards, a 4–3–3 pitch, captain and chemistry.”; “THE RULE” then “Three legal choices. No duplicate picks.” Small lime tape badge: “64 Nigerian legends · 4 eras”. Keep original player photograph identity and genuine silhouette fallbacks in supplied screenshot. Do not replace missing photos with invented faces.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/02-draft.png",
+        "social-pack/screens/02-lineup.png"
+      ]
+    },
+    {
+      "n": 3,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nSlide 03 / 06. A single large gorgeous iPhone on the left showing supplied actual 87-minute Nigeria goal, on right a bold editorial story. Exact headline: “The ball needed\\na reason to move.” Exact progression: “Pass → carry → shoot → save or score”. Exact body: “One timeline connects movement, goals, assists and commentary.” Exact lime highlighted quote: “A late winner should feel different.” Small footer note: “Condensed 2D simulation”. Make the goal screenshot the hero; preserve its Nigeria 1:0 Ecuador score and late-goal wording as closely as possible. Add restrained original confetti doodles outside the phone, not extra fake UI.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/03-late-goal.png"
+      ]
+    },
+    {
+      "n": 4,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nSlide 04 / 06. Bug-to-recovery story with two front-facing iPhones, smaller BEFORE phone contains supplied real Expo crash screen; larger AFTER phone contains supplied actual functioning tournament hub. Exact headline: “The crash that\\nimproved the boundary.” Exact short code quote in monospace readable: “Cannot read properties of undefined (reading 'fixtures')”. Exact sections: “THE FIX” then “Validate the data. Rebuild safely. Keep the XI.”; “THE CHECK” then “8 targeted recovery checks + a browser restore check.” Labels above phones: “BEFORE” and “AFTER”. Original graphic style, no fake user metrics, no implication about a proven root cause beyond missing tournament data.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/04-reported-error.png",
+        "social-pack/screens/04-hub.png"
+      ]
+    },
+    {
+      "n": 5,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nSlide 05 / 06. Two elegant iPhones facing front across centre-left, one shows real invitation room code screen, another the actual multiplayer pitch playback. Exact headline at top: “A shared seed\\nisn’t multiplayer.” Exact bold lime label: “One room. Two managers. One server result.” Exact body on right/bottom: “Private room tokens. Validated picks. Reconnect support.” Exact proof line: “Tested with two independent clients.” Honest small note: “Online drafting + shared simulation. Playback is local.” Room code is a temporary example, not an active invitation. No websocket icons or invented live player controls.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/05-room.png",
+        "social-pack/screens/05-duel.png"
+      ]
+    },
+    {
+      "n": 6,
+      "prompt": "Use case: ads-marketing. Create one finished portrait 4:5 social carousel card, intended 1080x1350, premium independent app-developer portfolio case study. Image 1 is mood/layout reference ONLY: use its editorial phone mockups, warm cream paper, hand-drawn marks and torn-paper footer approach; DO NOT copy its app, words, author, handle, watermark or signature. Image 2 is the new Eagles 7–0 logo to reproduce faithfully. Other images are real browser captures of this actual game: put them into convincing front-facing graphite iPhone mockups with slim bezels and dynamic island. Keep the game UI and actual numbers/names as faithful to the captures as possible; do not invent menus, fake download badges or new features. Original cohesive palette: pale cream #F5F2CF paper, deep forest #071E19 type/footer, lime #D6F395 tape highlights. Tasteful football-pitch line doodles, playful rounded bold headings, refined readable body typography. Strong spacing, crisp high-end presentation, not cluttered. Big enough text to read on a phone. Every slide has small Eagles 7–0 mark/wordmark at top and footer “Believe Osawaru · App developer”. Use only the exact copy supplied, no extra claims or metrics. Different editorial composition for each slide but same system.\nSlide 06 / 06. Closing case-study card with two beautiful overlapping iPhones using real result and scorer-table captures. Exact headline: “Built. Tested.\\nReady for feedback.” Exact section “SHIPPED” with short line “Draft · tournament hub · player awards · online rooms”. Exact section “NEXT” with short line “Real-device testing, deployment and football-fan feedback.” Exact bold closing: “No invented growth numbers.\\nThe next proof is people playing.” Small honest note: “iPhone presentation mockups · not App Store availability”. Keep result “3 / 7” and “Reached the semi-final” truthful rather than inventing a championship.",
+      "refs": [
+        "User-provided layout reference (not redistributed)",
+        "app/assets/brand/eagles-mark.png",
+        "social-pack/screens/06-result.png",
+        "social-pack/screens/06-scorers.png"
+      ]
+    }
+  ],
+  "aspectAdaptations": "Cards 1 and 3 were adapted to the same 4:5 portrait layout while preserving content.",
+  "brand": "Original geometric lime eagle with numeral 7 and football, on dark forest green. Flat premium mobile app mark; no text, no official federation branding.",
+  "brandPrompt": "Use case: logo-brand. Create a finished square 1024x1024 mobile game app icon for an independent Nigerian football game Eagles 7–0. A bold original geometric eagle silhouette with upward wings, subtly forming a numeral 7, wrapped around a small pentagonal football centre. Strong silhouette, friendly sporty curves, impeccable negative space. Single lime #D6F395 symbol on perfectly flat dark forest green #071E19 background, no gradients, no shadows, no mockup, no border, no text at all. Centre the symbol at 60% of canvas width with generous equal safe margins so circular app masks remain safe. Not an official national federation badge. Clean premium vector-like flat graphic, readable at tiny icon sizes.",
+  "actualBrandDimensions": [
+    1254,
+    1254
+  ],
+  "actualCarouselDimensions": [
+    1122,
+    1402
+  ]
+}

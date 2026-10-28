@@ -1,6 +1,32 @@
-# Eagles 7–0 — Tournament edition (v4)
+# Eagles 7–0 — Online rooms + brand edition (v5)
 
 One Expo + TypeScript app for web, Android and iOS, with an Express/MongoDB daily leaderboard. Draft an all-time Nigerian XI, manage the team under your chosen name and play a classic 32-team fantasy World Cup. Winning all seven is the perfect achievement; a draw or loss in the groups no longer automatically ends your tournament.
+
+## New in v5
+
+**Online multiplayer is a separate two-manager head-to-head mode.** It uses the same Nigerian player pool, with a MongoDB-backed room, private bearer tokens, server-validated picks and one authoritative saved match result. This is online drafting and a shared simulation; it is not live control of footballers. Each manager can pause/replay the saved timeline independently.
+
+The new eagle/football mark is used in Home, branded loaders, the web favicon, native app icon and the native splash-screen plugin. A new native build is needed to see launcher/splash changes. Expo Go can show its own launch screen; it is not a reliable test of standalone branding. No compiled APK is supplied.
+
+`social-pack/` contains six final portrait case-study images, real source captures, platform captions, a longer post, alt text and generation prompts. The phone frames are presentation mockups based on browser captures; they do not claim physical iPhone validation or App Store availability. No posts have been published.
+
+## Start a multiplayer match
+
+1. Deploy/start the **updated server** with MongoDB and set the app's `EXPO_PUBLIC_API_URL` to its HTTPS origin. Regular offline play needs no server, but multiplayer does.
+2. Open **Online multiplayer**, enter a 2–24 character manager name and select **Create a room**.
+3. Send the eight-character room code to your friend. They open the same web build/app on another device or browser profile, enter their own name and select **Join room**.
+4. Each manager makes eleven legal picks. Opponent selections remain hidden until both XIs are locked.
+5. The server simulates the host XI against the guest XI. Both receive the same saved score/timeline. Select **Watch our head-to-head** to play it back.
+
+Two tabs in the same browser profile share local room credentials; use different profiles/incognito contexts or devices for separate seats. A refresh/relaunch can reconnect with the saved room token. **Leave room** cancels a waiting/drafting room for both players. Rooms expire after 30 minutes. Expired or unauthorised sessions stop polling and offer leaving/rejoining.
+
+Rooms are stored in MongoDB, so they can survive an API process restart if the database and `SEED_SECRET` stay the same. Tokens are hashed on the server; don't publish a participant token. Rotating `SEED_SECRET` invalidates existing tokens. No account or verified identity is involved.
+
+Transport: HTTP polling every 2.5 seconds while waiting/drafting; no overlapping polls. Polling stops after completion/cancellation. Requests remain subject to per-IP limits, so many players behind one shared network may hit a limit. Room creation/join/pick actions are bounded; picks use an atomic expected-count filter to reject stale/double submissions. The complete timeline is calculated server-side. No scalability/load claim is made from the two-client tests.
+
+Multiplayer endpoints: `POST /api/rooms`, `POST /api/rooms/:code/join`, `GET /api/rooms/:code`, `POST /api/rooms/:code/pick`, `POST /api/rooms/:code/leave`. Protected requests use `Authorization: Bearer TOKEN`. No extra public app environment variable or WebSocket service is required. Existing CORS and Render wake-up behaviour still apply.
+
+Multiplayer uses Balanced tactics with no captain bonus; it is separate from the daily tournament leaderboard. The teams can contain the same legend because each participant drafts independently. A simplified shoot-out decides level exhibition games; the match is neutral in the goal-rate baseline.
 
 ## What you can do
 
@@ -186,6 +212,7 @@ cd ../server
 npm run build
 cd ..
 node --experimental-strip-types --test tests/api.test.ts
+node --experimental-strip-types --test tests/multiplayer.test.ts
 ```
 
 `test:recovery` requires the app and server dependencies installed. It renders missing/legacy fixture cases and a valid hub using React DOM and esbuild; output is temporary under `app/node_modules/.cache`.
@@ -207,5 +234,13 @@ Set `GAME_TEST_URL` for another local origin. Tests use an isolated browser cont
 `CASE_STUDY.md` records the iterations and trade-offs without invented user results. Share a web link first: it has much less friction than an unfamiliar APK. Keep Play obvious, the manager field optional, regular play independent of the server and the guide dismissible. Longer commentary is now an intentional choice; observe whether people prefer 1× or 4×.
 
 No one can predict enjoyment from a feature list. A useful first experiment is 50–100 relevant fans, looking for completed drafts/tournaments, voluntary replays and shares. Track denominators and acquisition sources, ask where people dropped off, and use actual evidence before claiming retention or demand. Analytics are not installed.
-#   e a g l e s  
- 
+
+### Optional two-browser multiplayer check
+
+After installing app/server dependencies and the optional root Playwright dependency, export a local-only test build with `EXPO_PUBLIC_API_URL=http://localhost:4125`, then run:
+
+```bash
+node tests/multiplayer-browser.cjs
+```
+
+The test starts its own temporary MongoDB/API on port 4125 and static server on 8092, uses two isolated browser sessions and never intentionally targets production. It checks create/join/draft, completion, refresh/reconnect, playback and expired-room polling recovery. Close services occupying those ports first. The test refuses a web build that does not contain the local test API origin. Rebuild the web app with your real API URL before deploying it publicly.

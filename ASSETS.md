@@ -373,3 +373,12 @@ derivative work: Coentor
 - Licence URL: https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: Resized thumbnail; cover cropped for display.
 
+
+
+## V5 brand and social artwork
+
+The original AI-assisted eagle/football mark is `app/assets/brand/eagles-mark.png`. It is wired to the native icon/splash and web favicon, with component use in `app/src/Brand.tsx`. The icon is a square opaque PNG; platform builds generate their required derivatives. Built-in image generation was used, with the brand brief and carousel prompts recorded in `social-pack/PROMPTS.json`.
+
+The six final images are in `social-pack/carousel/`, each 1122 × 1402 pixels (portrait, approximately 4:5). Generated presentation phone mockups are based on actual browser captures in `social-pack/screens/`. Minor device-rendering/type details can differ from the pixel-exact raw captures. The supplied inspiration artwork is not redistributed. The shown room code was a temporary local test room, not an active invitation.
+
+The visible player photograph in the selected draft carousel is Maduka Okoye (CC0); see that player's attribution above. Other raw source screens may show additional photos and retain their original credits.

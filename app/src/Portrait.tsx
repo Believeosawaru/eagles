@@ -25,7 +25,7 @@ export default function Portrait({
         <Image
           source={photos[player.id]}
           resizeMode="cover"
-          style={StyleSheet.absoluteFill}
+          style={[StyleSheet.absoluteFill, { width: "100%", height: "100%" }]}
           accessibilityLabel={player.name}
           onError={() => setFailed(true)}
         />

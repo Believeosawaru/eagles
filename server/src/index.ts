@@ -1,3 +1,4 @@
+import { multiplayerRouter, MultiplayerRoom } from "./multiplayer.js";
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
@@ -175,6 +176,7 @@ app.get("/api/leaderboard", async (req, res) => {
       .lean(),
   );
 });
+app.use("/api/rooms", multiplayerRouter(env.SEED_SECRET));
 app.use((_req, res) => res.status(404).json({ error: "Not found" }));
 app.use(
   (
@@ -202,7 +204,11 @@ app.use(
   },
 );
 await mongoose.connect(env.MONGODB_URI, { serverSelectionTimeoutMS: 15000 });
-await Promise.all([DailyChallenge.init(), Score.init()]);
+await Promise.all([
+  DailyChallenge.init(),
+  Score.init(),
+  MultiplayerRoom.init(),
+]);
 const server = app.listen(env.PORT, "0.0.0.0", () =>
   console.log(`Eagles API listening on ${env.PORT}`),
 );

@@ -75,3 +75,14 @@ This changes the pacing hypothesis: full tournaments take longer at 1×. Observe
 ## Patch 4.0.1 — recovering from incomplete tournament data
 
 A reported Expo error showed an unchecked access to `result.tournament.fixtures`. The visible symptom did not prove whether stale modules, older saved state or mixed source files caused the missing field. The fix treats this as a runtime boundary: validate tournament data, preserve the XI, offer a rebuild and normalise restored match indices. Targeted rendering regressions cover the exact missing-data shapes; browser validation covers a stale saved run. Update instructions now keep the app and shared engine in the same version and clear Metro's cache.
+
+
+## V5 iteration — real two-participant rooms and launch materials
+
+The brief expanded the friend feature into actual online participation. The first challenge-code mode only shared a seed; the new mode persists two seats in MongoDB, issues opaque per-seat tokens, validates every pick on the server and saves one head-to-head result. Atomic pick-count filters prevent a replayed request from adding a second player. Opponent selections are hidden until both XIs are complete.
+
+The MVP uses periodic HTTP requests instead of claiming live football input. Room data expires after thirty minutes. This is a deliberate simplicity/cost trade-off, not evidence of production scale. API tests exercised two independent tokens, capacity rejection, invalid/stale picks and identical results. Two browser sessions completed create/join/draft, refresh/reconnect and playback. Production proxy behaviour and high-concurrency load remain untested.
+
+A new AI-assisted eagle/football logo was applied to the home header, loaders, icon, favicon and native splash configuration. During real screen capture, two additional UI issues were visible: old scroll positions carried between screens, and image elements did not always fit their card bounds. Screen transitions now reset to the top and portrait images have explicit dimensions.
+
+The social pack contains six original editorial phone-mockup cards based on real captures, with copy for X, Instagram and Facebook and an extended case-study draft. It shows the missing-fixtures failure and recovery without inventing user growth, native-device validation or App Store availability. Next work remains deployment, physical-device testing, fan feedback and measured retention.
